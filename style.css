@@ -13,7 +13,7 @@ body {
   font-family: "Geist", sans-serif;
 }
 
-/* CONTAINER (IMPORTANT FOR PROFESSIONAL LOOK) */
+/* CONTAINER */
 .container-main {
   width: 90%;
   max-width: 1200px;
@@ -90,7 +90,7 @@ a:hover {
   transform: translateY(-2px);
 }
 
-/* SIGNUP button can be filled */
+
 .btn.signup {
   /* background-color: #07192c; */
   background-color: transparent;
@@ -104,7 +104,7 @@ a:hover {
   transform: translateY(-2px);
 }
 
-/* LOGIN button can be outline */
+
 .btn.login {
   background-color: transparent;
   color: #4da6ff;
@@ -263,7 +263,7 @@ form:hover {
   transform: translateY(-5px);
 }
 
-/* FORM HEADING */
+
 form h3 {
   margin-top: 20px;
   margin-bottom: 8px;
@@ -271,7 +271,7 @@ form h3 {
   color: #ffffff;
 }
 
-/* FORM INPUTS */
+
 form input,
 form textarea {
   width: 100%;
@@ -285,14 +285,14 @@ form textarea {
   font-size: 15px;
 }
 
-/* INPUT FOCUS EFFECT */
+
 form input:focus,
 form textarea:focus {
   outline: none;
   background-color: #1a1460;
 }
 
-/* SUBMIT BUTTON */
+
 form input[type="submit"] {
   background-color: rgb(10, 1, 40);
   color: white;
@@ -307,7 +307,7 @@ form input[type="submit"]:hover {
   background-color: rgb(14, 5, 47);
 }
 
-/* OPTIONAL: TEXTAREA */
+
 form textarea {
   resize: none;
   min-height: 100px;
